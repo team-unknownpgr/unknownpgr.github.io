@@ -1,14 +1,6 @@
 import Link from "next/link";
+import IMetadata from "../../interfaces/IMetadata";
 import styles from "./postList.module.scss";
-
-interface IMetadata {
-  [key: string]: {
-    title: string;
-    category: string;
-    name: string;
-    date: string;
-  };
-}
 
 function formatDate(d: Date, displayTime = false) {
   let ret =

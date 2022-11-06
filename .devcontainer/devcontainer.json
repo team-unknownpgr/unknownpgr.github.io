@@ -12,7 +12,8 @@
   "remoteUser": "node",
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},
-    "ghcr.io/devcontainers/features/python:1": {}
+    "ghcr.io/devcontainers/features/python:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:1": {}
   },
   "extensions": ["eamodio.gitlens", "esbenp.prettier-vscode"]
 }
